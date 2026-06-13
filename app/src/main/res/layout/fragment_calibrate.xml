@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <RelativeLayout
+        android:id="@+id/rootData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_background"
+        android:orientation="vertical"
+        android:padding="36dp">
+
+        <TextView
+            android:id="@+id/textInputNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/a0"
+            android:textColor="@color/accent"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textVoltage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textInputNumber"
+            android:fontFamily="@font/barlow_light"
+            android:text="@string/zero_volts2"
+            android:textColor="@android:color/white"
+            android:textSize="64sp" />
+
+        <TextView
+            android:id="@+id/textVoltage2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textVoltage"
+            android:fontFamily="@font/barlow_light"
+            android:text="@string/zero_volts2"
+            android:textColor="@color/accent"
+            android:textSize="64sp" />
+
+        <TextView
+            android:id="@+id/textCompensation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textVoltage2"
+            android:fontFamily="@font/barlow_light"
+            android:singleLine="true"
+            android:text="@string/initial_compensation"
+            android:textColor="@android:color/white"
+            android:textSize="64sp" />
+
+        <TextView
+            android:id="@+id/textCompensation2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textCompensation"
+            android:fontFamily="@font/barlow_light"
+            android:singleLine="true"
+            android:text="@string/initial_compensation"
+            android:textColor="@color/accent"
+            android:textSize="64sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="220dp"
+        android:layout_height="36dp"
+        android:layout_below="@+id/rootData"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_state"
+        android:enabled="false"
+        android:text="@string/calibrate"
+        android:textColor="@drawable/button_text_state" />
+</RelativeLayout>

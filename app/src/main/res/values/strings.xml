@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">BLE Voltimeter</string>
+    <string name="notification_alert">Alert</string>
+    <string name="notification_silent">Silent</string>
+    <string name="settings">Settings</string>
+	
+    <string name="scanning">Scanning&#8230;</string>
+    <string name="scanned_devices">Scanned devices</string>
+    <string name="already_scanning">Already scanning&#8230;</string>
+    <string name="choose_device">Choose a devices</string>
+    <string name="connecting">Connecting&#8230;</string>
+    <string name="bluetooth_enable">BLUETOOTH ENABLE</string>
+    <string name="bluetooth_disabled">Bluetooth disabled.</string>
+    <string name="bluetooth_services_error">Bluetooth services error.</string>
+    <string name="send">Send</string>
+    <string name="send_data">Send data</string>
+    <string name="discovering_services">Discovering services&#8230;</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="discovering_services_failure">Discovering services failure</string>
+    <string name="sent">Sent</string>
+    <string name="canceled">Canceled</string>
+    <string name="no_devices_found">No devices found.</string>
+    <string name="not_specified">Not specified</string>
+    <string name="calibrate">Calibrate</string>
+    <string name="calibrated">Calibrated.</string>
+    <string name="a0_compensation">A0 compensation</string>
+    <string name="a1_compensation">A1 compensation</string>
+    <string name="a2_compensation">A2 compensation</string>
+    <string name="a3_compensation">A3 compensation</string>
+
+    <string name="zero_volts">0,000</string>
+    <string name="zero_volts2">0,000V</string>
+    <string name="zero_sample">0/s</string>
+    <string name="voltage_unit">V</string>
+    <string name="zero">0</string>
+    <string name="a0">A0</string>
+    <string name="a1">A1</string>
+    <string name="a2">A2</string>
+    <string name="a3">A3</string>
+    <string name="samples">Samples</string>
+    <string name="sample_rate">Sample Rate</string>
+    <string name="initial_compensation">x100</string>
+</resources>
